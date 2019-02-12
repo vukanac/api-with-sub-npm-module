@@ -18,9 +18,11 @@
     "node": ">=10"
   },
   "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/vukanac/api-with-sub-npm-module.git"
+    "url": "https://github.com/vukanac/api-with-sub-npm-module.git",
+    "path": "npm-number-formatter"
   },
   "scripts": {
     "ci": "npm run lint && test-with-coverage",
